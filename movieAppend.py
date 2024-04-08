@@ -1,18 +1,18 @@
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 from sys import argv
 
-input_video_path=argv[1]
-outVide=argv[2]
+# input_video_path=argv[1]
+# outVide=argv[2]
 
 
 # List of input video files to be concatenated
-#input_video_path = "C:\\Users\\ycrag\\Downloads\\concatenated_video.mp4"
-
+input_video_path = "C:\\Users\\ycrag\\work\\Youtube Channel\\video\\BinauralRelaxMusic_out1.mp4"
+outVide = "C:\\Users\\ycrag\\work\\Youtube Channel\\video\\BinauralRelaxMusic_out2.mp4"
 # Initialize a list to store VideoFileClip objects
 video_clips = []
 
 # Iterate through each input video file
-for i in range(5):
+for i in range(2):
     # Load the video file
     video = VideoFileClip(input_video_path)
 
